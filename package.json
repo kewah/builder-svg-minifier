@@ -1,0 +1,32 @@
+{
+  "name": "builder-svg-minifier",
+  "version": "0.0.1",
+  "description": "SVG minifier plugin for component-builder2",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec",
+    "expected": "./node_modules/svgo/bin/svgo test/fixture/file.svg test/fixture/expected.svg"
+  },
+  "keywords": [
+    "component",
+    "builder",
+    "svg"
+  ],
+  "author": "kewah <hello@kewah.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kewah/builder-svg-minifier"
+  },
+  "bugs": {
+    "url": "https://github.com/kewah/builder-svg-minifier/issues"
+  },
+  "dependencies": {
+    "svgo": "^0.4.4"
+  },
+  "devDependencies": {
+    "component-builder": "^1.1.5",
+    "component-resolver": "^1.1.3",
+    "mocha": "*"
+  }
+}
