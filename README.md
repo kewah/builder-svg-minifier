@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kewah/builder-svg-minifier.png?branch=master)](https://travis-ci.org/kewah/builder-svg-minifier)
+
 # builder-svg-minifier
 
 Optimize SVG vector graphics files. Plugin for [component-builder2](https://github.com/component/builder2.js) using [svgo](https://github.com/svg/svgo).
